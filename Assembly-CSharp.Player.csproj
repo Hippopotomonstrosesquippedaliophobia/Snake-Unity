@@ -53,11 +53,16 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\hitApple.cs" />
+    <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Snake.cs" />
     <Compile Include="Assets\Scripts\SnakeControls.cs" />
-    <Compile Include="Assets\Rotate.cs" />
-    <Compile Include="Assets\hitApple.cs" />
-    <Compile Include="Assets\CollideWithSelf.cs" />
+    <Compile Include="Assets\Scripts\CollideWithSelf.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
+    <Compile Include="Assets\Skybox\SkyboxRotator.cs" />
+    <Compile Include="Assets\Skybox\SkyboxChanger.cs" />
+    <Compile Include="Assets\LookAtCam.cs" />
+    <Compile Include="Assets\DeathArea.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

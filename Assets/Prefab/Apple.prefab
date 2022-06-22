@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: -3792766212932228505}
   m_Layer: 0
   m_Name: Apple
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -314,3 +314,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0ee86f3b28a74746865b4012786139f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIScore: {fileID: 0}
